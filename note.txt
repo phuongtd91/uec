@@ -1,0 +1,19 @@
+3. Update gen_traffic (thêm slot_indx)	& convert to python
+		Check không để trùng slot_indx trên 1 source
+
+1. Xử lý thêm link input và output
+
+2. algorithm:
+	B1: khi có request--> ktra output link
+		Nếu không có slot available thi block -> count external block
+	B2: Nếu bước 1 mà False	
+		Thì mới tìm đường
+		function()
+		-> block request-->internal block
+	B3: total block = external + internal
+	
+
+
+
+SỬA CODE:
+	--> GỌN VÀ TƯỜNG MINH
